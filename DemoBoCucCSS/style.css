@@ -1,0 +1,33 @@
+
+.relative{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    margin: 100px auto;
+    background: blue;
+    
+}
+
+.absolute{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+}
+
+.red{
+    top: 100px;
+    left: 40px;
+    background: red;
+}
+
+.green{
+    top: 100px;
+    right: 40px;
+    background: green;
+}
+
+.yellow{
+    bottom: 100px;
+    left: 40px;
+    background: yellow;
+}

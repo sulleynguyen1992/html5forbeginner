@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, "Times New Roman", sans-serif;
+    font-size: 14px;
+    background-color: #83BBCA;
+}
+
+ol,ul {
+    list-style: none;
+
+}
+
+header{
+    background-color: white;
+}
+
+header img{
+    float:left;
+    width: 100px;
+}
+
+#sologan{
+    float: left;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+header:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+}
+
+#wrap {
+    background-color: white;
+    width: 960px;
+    border: 1px solid #000;
+    margin: 0px auto;
+}
+
+#inner_wrap {
+    background-image: url(../images/inner-wrap_bg.png);
+    background-repeat: repeat-x;
+}
+
+nav {
+    background-color: #63668B;
+    height: 35px;
+}
+
+nav li {
+    float: left;
+    width: 120px;
+    height: 35px;
+    background-color: #7D83A4;
+    text-align: center;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    line-height: 35px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+nav a:hover {
+    color: red;
+}
+
+aside {
+    float: left;
+    width: 300px;
+}
+
+aside video{
+    width: 300px;
+    height: 220px;
+    border-style: solid;
+    margin-top: 50px;
+    border-color: aqua;
+}
+
+
+#inner_wrap:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+}
+
+article {
+    float: right;
+    width: 600px;
+}
+
+footer {
+    background-image: url(../images/footer_background.jpg);
+    background-repeat: no-repeat;
+    width: 960px;
+    height: 118px;
+    padding-top: 10px;
+
+}
+
+aside h2, aside h3{
+    margin-right: 20px;
+    margin-left: 20px;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test session storage</title>
+</head>
+<script type="text/javascript">
+    //tang so hits sau moi lan truy cap
+    if (localStorage.hits) {
+        localStorage.hits = Number(localStorage.hits) + 1;
+    } else {
+        localStorage.hits = 1;
+    }
+    //hien thi hits len trinh duyet
+    document.write("so hits: " + localStorage.hits);
+
+</script>
+
+<body>
+    <p>Refresh trang de tang so hits</p>
+    <p> dong cua so va bat lai de kiem tra</p>
+
+</body>
+
+</html>
